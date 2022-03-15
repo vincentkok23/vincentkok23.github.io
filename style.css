@@ -11,6 +11,9 @@
   padding-top: 20px;
 }
 
+
+
+
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -97,4 +100,8 @@ body {
 #myBtn:hover {
   background: #ddd;
   color: black;
+}
+
+iframe {
+  padding-left: 8.42%;
 }
