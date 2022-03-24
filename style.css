@@ -2,9 +2,22 @@
 #koptext
 {
   font-size: 60px ;
+  color: white;
   
 }
 #text
 {
   font-size: 25px ;
+  color: white;
 }
+body {
+  background: url('image/Background3.jpg');
+  background-size: cover;
+}
+/*
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+*/
+
