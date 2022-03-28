@@ -8,8 +8,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
+  <script src="animation.js"></script>
+
 </head>
-<body>
+<body >
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -18,11 +20,10 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-        <a class="navbar-brand" href="#">PortofolioWebsite</a>
+        <a class="navbar-brand" href="index.html">PortofolioWebsite</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="active"><li><a href="index.html">homepage</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -48,15 +49,19 @@
       </nav> 
   </nav>
 
+  
   <br>
   <div class="container">
-    <div class="text-center" style="margin-top: 200px;">
+    <div style="margin-top: 200px;">
       <div class="card-body p-5">
-        <h2 id ="koptext">Hi, I'm Vincent</h2>
-        <p id = "text">I'm a Student Sofware Developer on Sintlucas.
-          <div style="height: 3000px"></div>
-          <p class="lead mb-0">You've reached the end!</p>
+        <h1>
+          <div id ="koptext" class="typewrite" data-period="2000" data-type='[ "Hi, Im Vincent.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+          <span class="wrap"></span>
+          </div>
+        </h1>
       </div>
+      <div style="height: 3000px"></div>
+      <p class="lead mb-0">You've reached the end!</p>
     </div>
   </div>
 
