@@ -2,17 +2,17 @@
 #koptext
 {
   font-size: 60px ;
-  color: black;
+  color: white;
   text-align: center
   
 }
 #text
 {
   font-size: 25px ;
-  color: black;
+  color: white;
 }
 body {
-  background: url('image/Background3.jpg') no-repeat center center fixed; 
+  background: url('image/wp2510496.gif') no-repeat center center fixed; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
