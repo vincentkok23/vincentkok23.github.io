@@ -1,4 +1,6 @@
-
+html {
+  text-decoration: none;
+}
 #koptext
 {
   font-size: 60px ;
