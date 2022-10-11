@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background: url('image/original_thumb.gif') no-repeat center center fixed; 
+  background: url('../../image/original_thumb.gif') no-repeat center center fixed; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
