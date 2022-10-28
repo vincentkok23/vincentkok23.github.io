@@ -15,13 +15,8 @@ html {
 }
 
 body {
-  background: url('../../image/original_thumb.gif') no-repeat center center fixed; 
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-color: black;
   height:100%;
 }
 
@@ -57,10 +52,5 @@ body {
   } 
 }
 
-/*
--webkit-background-size: cover;
--moz-background-size: cover;
-background-size: cover;
--o-background-size: cover;
-*/
+
 
