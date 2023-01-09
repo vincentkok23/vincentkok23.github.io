@@ -6,7 +6,51 @@
     <title>Unity WebGL Player | SD2BDev</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="/js/animation.js"></script>
   </head>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="../../index.html">PortofolioWebsite</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/projecten/En/Cube.html">Cube Goes Home</a></li>
+              <li><a href="/projecten/En/Farming2.html">Farming</a></li>
+              <li><a href="/projecten/En/PCevolution.html">Pc evolution</a></li>
+              <li><a href="/projecten/En/portoflio.html">Eerste Website</a></li>
+              <li><a href="/projecten/En/huntOrbehunted.html">Hunt</a></li>
+              <li><a href="/projecten/En/lsd.html">Simsimulator</a></li>
+              <li><a href="/projecten/En/pong.html">Pong</a></li>
+              <li><a href="/projecten/En/bullethell.html">Bullethell</a></li>
+              </ul>
+            </li>
+            <li><a href="aboutme.html">aboutme</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Language<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="/projecten/NL/Ne_home.html">Dutch</a></li>
+                <li><a href="index.html">Engels</a></li>
+            </ul>
+            </div>
+          </div>
+        </nav> 
+  
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
